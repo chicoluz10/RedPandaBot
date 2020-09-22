@@ -1,2 +1,2 @@
-./src/credential.json
-./src/commands/credential.json
+src/credential.json
+src/commands/credential.json
