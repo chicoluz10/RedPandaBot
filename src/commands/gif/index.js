@@ -10,9 +10,9 @@ const gifSearch = async (msg, args) => {
    */
   const data = (
     await axios.get(
-      `https://api.giphy.com/v1/gifs/search?api_key=${api_key}=${urlencode(
+      `http://api.giphy.com/v1/gifs/search?q=${urlencode(
         args
-      )}`
+      )}&api_key=${api_key}`
     )
   ).data.data;
   let num = Math.floor(Math.random() * 17);
