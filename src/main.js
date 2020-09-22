@@ -4,7 +4,7 @@ const gifSearch = require("./commands/gif");
 const wikiRandom = require("./commands/wiki");
 const weatherSearch = require("./commands/weather");
 const playAudio = require("./commands/playAudio");
-const config = require("./credential.json");
+const config = require("./commands/credential.json");
 
 let playing = false;
 
